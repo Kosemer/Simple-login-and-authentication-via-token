@@ -14,10 +14,10 @@ if (array_key_exists("user", $data)
 		echo json_encode($token);
 	  } else {
 		http_response_code(401);
-		echo "NINCS HOZZAFERESED!!!";
+		echo "Unauthorized!";
 	  }
 } else {
 	http_response_code(401);
-	echo "NINCS HOZZAFERESED!!!";
+	echo "Unauthorized!";
 }
 ?>
