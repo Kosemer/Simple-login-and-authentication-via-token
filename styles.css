@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    background: #403D43;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.label {
+    padding: 20px 120px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom: 1px solid gray;
+}
+
+.label i {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.login_form {
+    padding: 20px 40px;
+}
+
+.login_form .font {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+.login_form input {
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+    background: rgb(226, 223, 223);
+    border-radius: 5px;
+}
+
+.login_form .font2 {
+    margin-top: 30px;
+}
+
+.login_form button {
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #45c2a7;
+    border-radius: 25px;
+    border: 1px solid #45c2a7;
+    transition: .5s;
+}
+
+.login_form button:hover {
+    background: #39a58e;
+    border: 1px solid #39a58e;
+}
+
+.login_form #pass_error {
+    margin-top: 10px;
+    width: 345px;
+    font-size: 18px;
+    color: #fffb00;
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    display: none;
+}
+
+table,
+th,
+td {
+    border: 0.5px solid black;
+    width: 600px;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+    height: 15px;
+}
+
+table {
+    position: relative;
+    margin-top: 100px;
+    display: none;
+}
