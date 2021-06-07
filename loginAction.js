@@ -46,7 +46,7 @@ const loginAction = async() => {
                     cell1.innerHTML = sor["id"];
                     cell2.innerHTML = sor["text"];
 
-                    //this.document.location = "http://localhost/data.html";
+                    
                 });
 
             } else {
