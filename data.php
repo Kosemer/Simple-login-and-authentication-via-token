@@ -12,6 +12,6 @@ if (array_key_exists("x-api-key", $headers)
 	echo json_encode($data);
 } else {
 	http_response_code(401);
-	echo "NINCS HOZZAFERESED!!!";
+	echo "Unauthorized!";
 }
 ?>
