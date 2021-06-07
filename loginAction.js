@@ -33,7 +33,7 @@ const loginAction = async() => {
             });
 
             if (response.status == 200) {
-                //Data.html redirecting
+              
                 document.getElementById("cont").style.display = "none";
                 document.getElementById("table").style.display = "table";
                 const dataRows = await response.json()
